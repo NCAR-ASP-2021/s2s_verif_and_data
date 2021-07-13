@@ -62,7 +62,7 @@ Else create your own environment:
 
 Consider...
 
-- raising an [issue](https://github.com/pangeo-data/climpred/issues), which can be transferred to [discussions](https://github.com/pangeo-data/climpred/discussions)
+- raising an [issue](https://github.com/NCAR-ASP-2021/s2s_verif_and_data/issues)
 - reaching out on [slack](asp2021-s2s.slack.com)
 
 # Tutorial leads
