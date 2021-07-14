@@ -19,8 +19,8 @@ we use `climpred` https://climpred.readthedocs.io/en/stable/ to verify subseason
 # Contents
 
 - 'ASP_data_catalog.yml': `intake` [catalog](https://intake.readthedocs.io/en/latest/catalog.html#yaml-format), see `data_access_with_intake.ipynb`
-- `s2s-asp.yaml`: [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) file. Needed to create the data.
-- `s2s-asp.yaml`: [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) file
+- `s2s-asp.yml`: [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) file. Needed to create the data.
+- `s2s-asp.yml`: [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) file
 - `cluster.ipynb`: Start a [`PBS`-Cluster](https://github.com/NCAR/ncar-jobqueue) on `casper`, needed for big data (10GB+)
 - `metrics_example.ipynb`: [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) about `climpred` and student projects
 
@@ -33,9 +33,9 @@ Else create your own environment:
 
 ```bash
   conda activate
-  conda env create -f s2s-asp.yaml
+  conda env create -f s2s-asp.yml
   # update existing
-  # conda env update -f s2s-asp.yaml
+  # conda env update -f s2s-asp.yml
   conda activate s2s-asp
 ```
 
