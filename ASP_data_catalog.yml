@@ -163,7 +163,6 @@ sources:
       urlpath: /glade/campaign/mmm/c3we/jaye/S2S_zarr/NCEP.{{data}}.{{lead}}.{{dim}}.zarr
       chunks: auto
       use_cftime: True
-<<<<<<< HEAD
       
   CESM2:
     description: >-
@@ -282,8 +281,6 @@ sources:
       urlpath: /glade/campaign/mmm/c3we/jaye/S2S_zarr/WACCM.{{data}}.{{lead}}.{{dim}}.zarr
       chunks: auto
       use_cftime: True
-=======
->>>>>>> 386aa9c1a572cf0d2ed9c24d33223e5059d6e875
   
   cat_edges:
     description: tercile category edges, computed by notebook add_path
@@ -292,11 +289,7 @@ sources:
         description: model or observations
         type: str
         default: OBS
-<<<<<<< HEAD
         allowed: [OBS, ECMWF, ECCC, NCEP, CESM2, CESM1, WACCM]
-=======
-        allowed: [OBS, ECMWF, ECCC, NCEP]
->>>>>>> 386aa9c1a572cf0d2ed9c24d33223e5059d6e875
       data:
         description: data type
         type: str
